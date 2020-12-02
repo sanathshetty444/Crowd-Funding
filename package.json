@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "next dev"
+    "dev": "node server.js"
   },
   "author": "Sanath K Shetty",
   "license": "ISC",
@@ -14,8 +14,11 @@
     "ganache-cli": "^6.0.3",
     "mocha": "^4.0.1",
     "next": "^4.1.4",
+    "next-routes": "^1.4.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
     "solc": "^0.4.19",
     "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.26"
